@@ -38,7 +38,9 @@
     background-color: transparent;
   }
   
-  
+  p{
+    margin: 0;
+  }
   abbr[title] {
     border-bottom: none; /* 1 */
     text-decoration: underline; /* 2 */
@@ -230,8 +232,8 @@ ul{
     background: none;
     color: #fff;
     width: 140px;
-    height: 35px;
-    border-radius: 15px;
+    height: 40px;
+    border-radius: 10px;
     border: 1px solid #fff;
     cursor: pointer;
   }
@@ -239,6 +241,7 @@ ul{
     background: #1A1A1A;
     color: #ffff;
     padding: 0 30px;
+    height: 100vh;
   }
 
   .nav{
@@ -252,9 +255,86 @@ ul{
     align-items: center;
     justify-content: center;
   }
+  .nav-list li{
+    cursor: pointer;
+  }
+
   .nav-list li:not(:first-child){
     margin-left: 15px;
   }
   .title-span span{
     color: #94E214
   }
+
+  .line-container{
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .middle-contact-text{
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  .middle-block-contact{
+    margin: 20px 0;
+  }
+  .line-container:after{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 2px;
+    left: 0px;
+    top: 8px;
+    background-color: #fff;
+  }
+  .background-icon-contact{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .background-icon-contact img{
+    width: 25px;
+    height: 25px;
+  }
+  .middle-contact-icon div{
+    margin: 10px 15px 10px 0px;
+  }
+  .middle-contact-icon{
+    display: flex;
+    align-items: center; 
+  }
+.btn-action{
+  height: 50px;
+}
+
+.button-write-me img{
+  width: 15px;
+  height: 15px;
+}
+
+.btn-write-me-container{
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+
+}
+.btn-write-me-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.btn-write-me-content p{
+margin-right: 10px;
+}
+
