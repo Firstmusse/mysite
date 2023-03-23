@@ -337,4 +337,22 @@ ul{
 .btn-write-me-content p{
 margin-right: 10px;
 }
+.content-center{
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
 
+.user-photo-bg{
+
+}
+
+.user{
+  width: 35%;
+  position: absolute;
+  right: 130px;
+  bottom: 0px;
+  
+}
