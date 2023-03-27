@@ -16,7 +16,7 @@
 
   
   h1 {
-    font-size: 2em;
+    font-size: 3em;
     margin: 0.67em 0;
   }
   
@@ -224,9 +224,10 @@ ul{
     display: none;
   }
   .container{
-    max-width: 1920px;
-    margin: 0 auto;
-    
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
   }
   .btn-write-me{
     background: none;
@@ -241,7 +242,7 @@ ul{
     background: #1A1A1A;
     color: #ffff;
     padding: 0 30px;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .nav{
@@ -343,6 +344,7 @@ margin-right: 10px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
+   
 }
 
 .user-photo-bg{
@@ -350,9 +352,45 @@ margin-right: 10px;
 }
 
 .user{
-  width: 35%;
+  width: 25%;
   position: absolute;
   right: 130px;
   bottom: 0px;
-  
+ 
+}
+
+.about-me{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+}
+
+.left-content{
+  margin-right: 35px;
+  text-align: right;
+}
+.right-text-content{
+  width: 450px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 175px;
+}
+
+.left-content span{
+  color: #94E214
+}
+.left-content h2{
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.donwload-cv{
+  background: none;
+  padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
 }
