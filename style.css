@@ -376,6 +376,20 @@ margin-right: 10px;
   overflow-x: hidden;
   height: 175px;
 }
+.right-text-content::-webkit-scrollbar{
+  width: 5px;
+  
+}
+
+.right-text-content::-webkit-scrollbar-track{
+  
+}
+.right-text-content::-webkit-scrollbar-thumb{
+  background: #000000;
+  border-radius: 15px;
+}
+
+
 
 .left-content span{
   color: #94E214
