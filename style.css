@@ -239,10 +239,13 @@ ul{
     cursor: pointer;
   }
   .main-page{
-    background: #1A1A1A;
+    background: rgb(12,12,15);
     color: #ffff;
     padding: 0 30px;
     min-height: 100vh;
+    background-image: url(/images/mesh1.svg);
+    background-size: 50% auto;
+    
   }
 
   .nav{
@@ -335,21 +338,25 @@ ul{
   justify-content: center;
   
 }
+.btn-write-me-content img{
+  width: 25px;
+  height: 25px;
+}
+
 .btn-write-me-content p{
 margin-right: 10px;
 }
 .content-center{
-  height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
+    position: relative;
    
 }
 
-.user-photo-bg{
 
-}
 
 .user{
   width: 25%;
@@ -399,12 +406,95 @@ margin-right: 10px;
   text-transform: uppercase;
   font-weight: bold;
 }
-.donwload-cv{
-  background: none;
+.btn-donwload-cv{
   padding: 10px;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #000000;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-donwload-cv a{ 
+  text-decoration: none;
+  color: #000000;
+  margin-right: 10px;
+}
+
+.btn-donwload-cv img{
+  width: 25px;
+  height: 25px;
+}
+.hard-skills{
+  background-image: url(/images/magicpattern-mesh-gradient-1680080212563.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.titlle-skills{
+  font-size: 3em;
+  color: #fff;
+  display: inline-block;
+  margin: 0 40px 0 0;
+}
+
+.titlle-skills span{
+  color: #94E214; 
+}
+
+.hard-skills-content{
+  display: flex;
+  align-items: flex-start;
+}
+.skills-content{
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 350px;
+  padding-right: 30px;
+}
+
+
+.skills-content::-webkit-scrollbar{
+  width: 5px;
+  
+}
+
+.skills-content::-webkit-scrollbar-track{
+  background: #69696969;
+  border-radius: 15px;
+}
+.skills-content::-webkit-scrollbar-thumb{
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+
+.skills-content:first-child{
+  
+}
+
+
+.skills-content-item{
+display: flex;
+align-items: center;
+justify-content: flex-start;
+border-bottom: 1px solid rgb(153 153 153 / 20%);
+height: 110px;
+width: 200px;
+padding-right: 90px;
+}
+.skills-content-item img{
+  width: 45px;
+  height: 45px;
+  margin-right: 25px;
+}
+.icon-text-content{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.7em;
 }
