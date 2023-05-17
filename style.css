@@ -52,7 +52,7 @@
   strong {
     font-weight: bolder;
   }
-  
+
 
   
   code,
@@ -65,7 +65,7 @@
   small {
     font-size: 80%;
   }
-  
+
   sub,
   sup {
     font-size: 75%;
@@ -569,6 +569,11 @@ padding-right: 90px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-image: url(/images/bg-mesh.svg);
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center;
+  margin-bottom: 58px;
 }
 
 
@@ -595,4 +600,48 @@ background: linear-gradient(90deg, rgba(16,16,17,0.7063200280112045) 95%, rgba(2
   color: #fff;
   right: -330px;
   top: 0;
+}
+.black-title{
+  font-weight: bold;
+  font-size: 2.9em;
+  text-transform: uppercase;
+  margin: 40px 0 15px 0;
+}
+.wrapper{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link-project-list {
+  margin-bottom: 10px;
+}
+.link-project-list a{
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(77, 77, 77);
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.link-project-list a:focus{
+  color: black;
+}
+.link-project-list img{
+  width: 13px;
+  height: 13px;
+  margin-left: 5px;
+}
+.project-item-background{
+  width: 350px;
+  height: 300px;
+  background: linear-gradient(90deg, #134E5E 0%, #71B280 100%);
+  border-radius: 10px;
+  
+}
+.project-item-images img{
+  width: 100%;
+}
+
+.project-item-images{
+
 }
