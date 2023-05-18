@@ -9,15 +9,29 @@
     overflow: hidden;
 }
 /* Лента слайдов */
-.slick-track{}
+.slick-track{
+    
+}
 /* Слайд */
-.slick-slide{}
+.slick-slide{
+   
+}
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{}
 /* Слайд основной */
 .slick-slide.slick-current{}
 /* Слайд по центру */
-.slick-slide.slick-center{}
+.count-project-item{
+    /* opacity: 0.4; */
+    display: flex;
+   transition: all 0.3s ease 0s;
+}
+
+.slick-slide.slick-center{
+    /* opacity: 1; */
+}
+
+
 /* Клонированный слайд */
 .slick-slide.slick-cloned{}
 

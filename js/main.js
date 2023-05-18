@@ -7,19 +7,28 @@ $(document).ready(function(){
 	$('.count-project').slick({
 		arrows:true,
 		dots:true,
-		slidesToShow:3,
-		autoplay:true,
+		slidesToShow:4,
+		slidesToScroll: 1,
+		autoplay:false,
 		speed:1000,
 		autoplaySpeed:800,
+		centerMode: true,
+		// varibleWidth: true, 
 		responsive:[
 			{
-				breakpoint: 768,
+				breakpoint: 1280,
+				settings: {
+					slidesToShow:3
+				}
+			},
+			{
+				breakpoint: 990,
 				settings: {
 					slidesToShow:2
 				}
 			},
 			{
-				breakpoint: 550,
+				breakpoint: 660,
 				settings: {
 					slidesToShow:1
 				}
