@@ -651,4 +651,13 @@ background: linear-gradient(90deg, rgba(16,16,17,0.7063200280112045) 95%, rgba(2
   box-sizing: border-box;
   padding-top: 15px;
 }
+.count-project-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.btn-black{
+  color: black;
+  border:1px solid black;
+}

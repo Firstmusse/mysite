@@ -37,12 +37,11 @@
 
 /* Стрелка */
 .slick-arrow{
-    position: absolute;
     top: 50%;
     z-index: 10;
     font-size: 0;
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     border: none;
 }
 /* Стрелка влево */
@@ -52,8 +51,8 @@
 }
 /* Стрелка вправо */
 .slick-arrow.slick-next{
-right: 0;
-background: url('/images/arrow-slider.png') 0 0 / 100% no-repeat ;
+background: url('/images/arrow-slider.png') 0 0 / 60% no-repeat ;
+
 }
 /* Стрелка не активная */
 .slick-arrow.slick-disabled{
@@ -75,17 +74,27 @@ background: url('/images/arrow-slider.png') 0 0 / 100% no-repeat ;
         background-color: #141414;
        
 }
-.count-project .slick-dots button{
+.project-buttons-arrows{
+position: relative;
+
+}
+.arrows-slider-next{
+    position: absolute;
+    right: 1px;
+    top: ;
+}
+.project-buttons-dots .slick-dots button{
     background-color: #E5E5E5;
     width: 10px;
     height: 10px;
     border-radius: 50%;
 
 }
+
 /* Элемент точки */
-.count-project .slick-dots li button{
+.project-buttons-dots .slick-dots li button{
     text-decoration: none;
     font-size: 0;
     border: none;
     padding: 0;
-}
+};
