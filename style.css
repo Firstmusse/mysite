@@ -631,6 +631,9 @@ background: linear-gradient(90deg, rgba(16,16,17,0.7063200280112045) 95%, rgba(2
   height: 13px;
   margin-left: 5px;
 }
+.count-project{
+  margin: 30px 0 30px 0;
+}
 .project-item-background{
   width: 350px;
   height: 300px;
