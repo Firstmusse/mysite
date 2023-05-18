@@ -1,5 +1,7 @@
 /* Слайдер */
-.slick-slider{}
+.slick-slider{
+    padding: 0 15px;
+}
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
 /* Слайдер с точками */
@@ -28,7 +30,7 @@
 }
 
 .slick-slide.slick-center{
-    /* opacity: 1; */
+   
 }
 
 

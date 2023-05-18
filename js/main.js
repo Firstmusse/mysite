@@ -11,9 +11,11 @@ $(document).ready(function(){
 		slidesToScroll: 1,
 		autoplay:false,
 		speed:1000,
-		autoplaySpeed:800,
+		autoplaySpeed:1000,
 		// centerMode: true,
-		// varibleWidth: true, 
+		varibleWidth: true, 
+		touchThreshold: 7,
+		waitForAnimate: false,
 		appendArrows:$('.project-buttons-arrows'),
 		appendDots:$('.project-buttons-dots'),
 		responsive:[
