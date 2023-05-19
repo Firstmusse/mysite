@@ -7,13 +7,14 @@ $(document).ready(function(){
 	$('.count-project').slick({
 		arrows:true,
 		dots:true,
-		slidesToShow:3,
+		// slidesToShow:4,
+		infinite: true,
 		slidesToScroll: 1,
-		autoplay:false,
+		autoplay:true,
 		speed:1000,
 		autoplaySpeed:1000,
 		// centerMode: true,
-		varibleWidth: true, 
+		variableWidth: true, 
 		touchThreshold: 7,
 		waitForAnimate: false,
 		appendArrows:$('.project-buttons-arrows'),
@@ -40,4 +41,3 @@ $(document).ready(function(){
 		]
 	});
 });
-

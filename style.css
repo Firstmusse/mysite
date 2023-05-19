@@ -685,3 +685,36 @@ background: linear-gradient(90deg, rgba(16,16,17,0.7063200280112045) 95%, rgba(2
   color: black;
   border:1px solid black;
 }
+
+#map {
+  height: 400px; /* The height is 400 pixels */
+  width: 100%; /* The width is the width of the web page */
+  position: relative;
+}
+.contacts{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  top: 0;
+  left: 10px;
+  z-index: 10;
+}
+.gm-style-mtc{
+  display: none;
+}
+.gm-svpc{
+  display: none;
+}
+.gmnoprint{
+  display: none;
+}
+.gm-control-active{
+  display: none;
+}
+#map > div > div > div:nth-child(15) > div > a > div > img{
+  display: none;
+}
+.gm-style-moc{
+  display: none;
+}

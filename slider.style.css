@@ -1,6 +1,6 @@
 /* Слайдер */
 .slick-slider{
-    padding: 0 15px;
+     
 }
 /* Слайдер запущен */
 .slick-slider.slick-initialized{}
@@ -9,6 +9,7 @@
 /* Ограничивающая оболочка */
 .slick-list {
     overflow: hidden;
+  
 }
 /* Лента слайдов */
 .slick-track{
@@ -16,7 +17,7 @@
 }
 /* Слайд */
 .slick-slide{
-   
+    width: 310px;
 }
 /* Слайд активный (показывается) */
 .slick-slide.slick-active{}
