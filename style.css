@@ -243,7 +243,7 @@ ul{
     color: #ffff;
     padding: 0 30px;
     min-height: 100vh;
-    background-image: url(/images/mesh1.svg);
+    background-image: url(images/mesh1.svg);
     background-size: 50% auto;
     
   }
@@ -432,7 +432,7 @@ margin-right: 10px;
   height: 25px;
 }
 .hard-skills{
-  background-image: url(/images/magicpattern-mesh-gradient-1680080212563.png);
+  background-image: url(images/magicpattern-mesh-gradient-1680080212563.png);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -572,7 +572,7 @@ padding-right: 90px;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(/images/bg-mesh.svg);
+  background-image: url(images/bg-mesh.svg);
   background-repeat: no-repeat;
   background-size: 110%;
   background-position: center;
